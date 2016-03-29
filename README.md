@@ -1,5 +1,5 @@
 
-# YLNoImageModel的使用简介
+# YLNoImageModel简介
 
 ## 1.使用场景
 
@@ -11,12 +11,14 @@ APP中为了提升用户体验，当用户处在2G/3G/4G网络情况下，有无
 这个时候，用YLNoImageModel可以很方便的处理。
 
 ## 2.几点说明
-为了方便管理图片以及判断图片是否已经加载过，这里使用第三方库SDWebImage来管理。网络情况判断推荐使用Reachability第三方库。
+- 为了方便管理图片以及判断图片是否已经加载过，这里使用第三方库[SDWebImage](https://github.com/rs/SDWebImage)来管理。
+- 网络情况判断推荐使用[Reachability](https://github.com/tonymillion/Reachability)第三方库。
 
 
 ## 3.使用方法
-- 1.导入需要的Reachability以及SDWebImage第三方库；
-- 2.在项目中监听网络情况变动，修改本地保存的无图模式开关。
+- 1.导入需要的[SDWebImage](https://github.com/rs/SDWebImage)和[Reachability](https://github.com/tonymillion/Reachability)第三方库；
+- 2.将本项目中的Category下的文件拷贝到你的项目中；
+- 2.在项目中监听网络情况，修改本地保存的无图模式开关（参考[Reachability](https://github.com/tonymillion/Reachability)）；
 - 3.在需要展示无图模式的地方，调用如下方法。以UIButton为例，通常会有点击加载图片和点击查看大图的功能：
 
 ```
