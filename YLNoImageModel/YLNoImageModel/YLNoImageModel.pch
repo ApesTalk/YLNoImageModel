@@ -1,0 +1,17 @@
+//
+//  YLNoImageModel.pch
+//  YLNoImageModel
+//
+//  Created by TK-001289 on 16/3/29.
+//  Copyright (c) 2016年 YL. All rights reserved.
+//
+
+#ifndef YLNoImageModel_YLNoImageModel_pch
+#define YLNoImageModel_YLNoImageModel_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kYLNoImageModeIsAvaliable  YES
+
+#endif
